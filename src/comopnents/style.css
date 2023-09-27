@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Responsive for mobile devices */
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      margin: 0px;
+      padding-bottom: 60px;
+    }
+  }
+
+  
